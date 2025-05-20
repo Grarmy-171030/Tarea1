@@ -5,7 +5,7 @@
 
 barras_de_pan=3.49
 descuento=0.60
-barras_vendidas=(float(input("Ingrese el numero de bandas vendidas que no son del día")))
+barras_vendidas=(int(input("Ingrese el numero de bandas vendidas que no son del día")))
 (print("El precio es: ",barras_de_pan ))
 print("El descuento por no ser fresca es del: ", descuento*100 , "%")
 precio_descuento = barras_de_pan * (1 - descuento)
